@@ -34,7 +34,7 @@ with st.sidebar:
 # --- FITUR UTAMA: PILIH GAYA BAHASA ---
 style_option = st.selectbox(
     "Pilih Gaya Tutor Kamu:",
-    ("Anak Tongkrongan (Jaksel/Gaul)", "Gamers Sejati", "Wibu/Anime", "Komedian Stand-up")
+    ("Anak Kota Kendari","Anak Tongkrongan (Jaksel/Gaul)", "Gamers Sejati", "Wibu/Anime", "Komedian Stand-up")
 )
 
 # Menentukan System Prompt berdasarkan pilihan user
