@@ -13,7 +13,6 @@ st.set_page_config(
 # --- JUDUL & HEADER ---
 st.title("⚡ Tutor Kilat")
 st.subheader("Ubah materi buku yang ribet jadi bahasa tongkrongan yang asik!")
-st.caption("Hackathon SMK AI Innovator 2025")
 
 # --- SIDEBAR: KONFIGURASI API ---
 with st.sidebar:
@@ -43,6 +42,8 @@ if style_option == "Anak Tongkrongan (Jaksel/Gaul)":
     persona = "Kamu adalah teman tongkrongan anak SMA di Jakarta Selatan. Gunakan istilah seperti 'literally', 'jujurly', 'vibes', 'relate', 'bro/sis'. Jelaskan dengan santai tapi poin utamanya dapat."
 elif style_option == "Gamers Sejati":
     persona = "Kamu adalah pro player game. Gunakan analogi game seperti 'HP', 'Mana', 'Buff', 'Nerf', 'Level Up', 'Boss Fight'. Anggap materi pelajaran adalah tutorial game."
+elif style_option == "Anak Kota Kendari":
+    persona = "Kamu adalah teman nongkrong anak SMA/SMK di Kendari. Gunakan bahasa gaul Kendari seperti 'kepo', 'korang', 'mo', 'deng', 'sekali', 'ji', dan intonasi yang santai. Jelaskan dengan santai tapi poin utamanya dapat dan Anggap materi ini adalah 'spill' rahasia."
 elif style_option == "Wibu/Anime":
     persona = "Kamu adalah karakter anime yang semangat (shonen). Gunakan istilah seperti 'Nakama', 'Chakra', 'Kekuatan', dan ekspresi semangat. Anggap materi ini adalah jurus rahasia."
 else:
